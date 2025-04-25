@@ -1,0 +1,28 @@
+    private fun openSpotifyLink() {
+        if (tracks.isEmpty()) return
+
+        val track = tracks[musicId]
+        Log.d("SpotifyService", "Tocando: ${track.description} - ${track.link}")
+
+        val intent = Intent("com.example.spotify.OPEN_LINK").apply {
+            putExtra("url", track.link)
+        }
+        sendBroadcast(intent)
+
+        musicId = (musicId + 1) % tracks.size
+
+        // Recarrega a playlist se voltou ao início
+        if (musicId == 0) {
+            CoroutineScope(Dispatchers.IO).launch {
+                try {
+                    val novasTracks = baixarJsonTracks()
+                    if (novasTracks.isNotEmpty()) {
+                        tracks = novasTracks
+                        Log.d("SpotifyService", "Playlist recarregada")
+                    }
+                } catch (e: Exception) {
+                    Log.e("SpotifyService", "Erro ao recarregar tracks: ${e.message}")
+                }
+            }
+        }
+    }
