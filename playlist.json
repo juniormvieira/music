@@ -15,11 +15,6 @@
     "description": "Bendita Timidez - Christian e Miguel"
   },
   {
-    "link": "https://open.spotify.com/track/3pB2FfzMlBkZbxIjty6CWt",
-    "duration": "2:47",
-    "description": "Nao me diga que nao - Christian e Miguel"
-  },
-  {
     "link": "https://open.spotify.com/track/3CnMLZpnnRwiIqnJ2MijU1",
     "duration": "2:45",
     "description": "Coracao Macio - Leo Camaro"
@@ -28,5 +23,31 @@
     "link": "https://open.spotify.com/track/3pB2FfzMlBkZbxIjty6CWt",
     "duration": "2:47",
     "description": "Nao me diga que nao - Christian e Miguel"
-  }  
+  },
+  {
+    "link": "https://open.spotify.com/track/0Be23Fk9jkMum5pX4xp1JN",
+    "duration": "2:55",
+    "description": "To bem de amigo - Christian e Miguel"
+  },
+  {
+    "link": "https://open.spotify.com/track/7MirP6VRIgXsdVixIUJNDw",
+    "duration": "2:40",
+    "description": "Bebendo a Saudade - Christian e Miguel"
+  },
+  {
+    "link": "https://open.spotify.com/track/3pB2FfzMlBkZbxIjty6CWt",
+    "duration": "2:47",
+    "description": "Nao me diga que nao - Christian e Miguel"
+  },
+  {
+    "link": "https://open.spotify.com/track/4PgCHWtpj6dmS2nyVJubV6",
+    "duration": "2:16",
+    "description": "Pegar vc e pa - Christian e Miguel"
+  },
+  {
+    "link": "https://open.spotify.com/track/6fCQorYhfj1zgG7ECoyIN6",
+    "duration": "3:07",
+    "description": "Flor de Maringa - Christian e Miguel"
+  }           
+  
 ]
